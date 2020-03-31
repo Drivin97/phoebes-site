@@ -3,8 +3,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import home from './components/home';
-import about from './components/about'
-import blogs from './components/blogs'
+import about from './components/about';
+import blogs from './components/blogs';
 
 class App extends Component {
   render() {
