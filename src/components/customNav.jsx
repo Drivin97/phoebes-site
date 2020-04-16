@@ -9,7 +9,7 @@ export default class customNav extends Component {
         return(
             <Navbar collapseOnSelect>
                 <Navbar.Brand>
-                    <Link to='/'>What Time is it?</Link>
+                    <Link to='/' className='brand'>What Time is it?</Link>
                 </Navbar.Brand>
                 <Navbar.Toggle />
 

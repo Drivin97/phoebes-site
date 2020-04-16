@@ -1,3 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+.brand {
+  font-family: 'Courgette', cursive;
+  color: white;
+  text-decoration: none;
+}
+
+.brand:hover {
+  text-decoration: none;
+  color: white;
+}
+
 .App {
   text-align: center;
 }

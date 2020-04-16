@@ -1,0 +1,21 @@
+.title {
+    font-family: 'Courgette', cursive;
+}
+
+.jumbotron {
+    width: stretch;
+}
+
+body {
+    position: relative;
+    background-image: url('/assets/south-africa.jpg');
+    background-color: hsla(0,0%,100%,0.40);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+}
+
+.main-content {
+    background-color: white;
+    margin: 0px 1px;
+    border-radius: 5px;
+}

@@ -13,16 +13,16 @@ export default class Home extends Component {
         return (
             <Container fluid>
                 <Jumbotron>
-                    <h2>Time for Transparency</h2>
+                    <h2 className='title'>Time for Transparency</h2>
                     <p>Random text to make sure everything is working</p>
                 </Jumbotron>
 
-                <Row>
-                    <Col xs={12} sm={8}>
+                <Row className='main-content'>
+                    <Col sm={12} md={8}>
                         <h1>Latest Blog</h1>
                         <p className='blog-text text-justify'>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
                     </Col>
-                    <Col xs={12} sm={{span: 3, offset: 1}}>
+                    <Col sm={12} md={{span: 3, offset: 1}}>
                         <Image src='assets/queen.jpg' className='img-fluid'/>
                     </Col>
                 </Row>
