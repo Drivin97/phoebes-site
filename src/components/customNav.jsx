@@ -2,13 +2,14 @@ import React, { Component } from 'react';
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
 import { Link } from 'react-router-dom';
+import './customNav.css'
 
 export default class customNav extends Component {
     render() {
         return(
             <Navbar collapseOnSelect>
                 <Navbar.Brand>
-                    <Link to='/'>Pheeb's Blog</Link>
+                    <Link to='/'>What Time is it?</Link>
                 </Navbar.Brand>
                 <Navbar.Toggle />
 
