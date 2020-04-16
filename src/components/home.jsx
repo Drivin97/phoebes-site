@@ -3,7 +3,6 @@ import React, { Component } from 'react';
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
-import Jumbotron from 'react-bootstrap/Jumbotron'
 import Image from 'react-bootstrap/Image'
 //import Button from 'react-bootstrap/Button'
 import './home.css';
@@ -12,10 +11,9 @@ export default class Home extends Component {
     render() {
         return (
             <Container fluid>
-                <Jumbotron>
+                <Row>
                     <h2 className='title'>Time for Transparency</h2>
-                    <p>Random text to make sure everything is working</p>
-                </Jumbotron>
+                </Row>
 
                 <Row className='main-content'>
                     <Col sm={12} md={8}>
