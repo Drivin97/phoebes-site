@@ -8,10 +8,6 @@
     font-size: 60px;
 }
 
-.jumbotron {
-    width: stretch;
-}
-
 body {
     position: relative;
     background-image: url('/assets/south-africa.jpg');
@@ -20,8 +16,28 @@ body {
     background-repeat: no-repeat;
 }
 
-.main-content {
-    background-color: white;
-    margin: 0px 1px;
-    border-radius: 5px;
+.row {
+    max-height: 400px;
+}
+.card-title.h5 {
+    text-align: center;
+}
+
+.blogs {
+    width: auto;
+}
+
+.about {
+    width: auto;
+}
+
+.about > img {
+    max-height: 400px;
+}
+
+.all-blogs {
+    clear: left;
+}
+.card {
+    margin: 10px;
 }

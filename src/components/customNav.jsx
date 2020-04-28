@@ -7,9 +7,9 @@ import './customNav.css'
 export default class customNav extends Component {
     render() {
         return(
-            <Navbar collapseOnSelect>
+            <Navbar collapseOnSelect expand='md'>
                 <Navbar.Brand>
-                    <Link to='/' className='brand'>What Time is it?</Link>
+                    <Link to='/' className='brand'>Time for Transparency</Link>
                 </Navbar.Brand>
                 <Navbar.Toggle />
 

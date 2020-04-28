@@ -4,26 +4,32 @@ import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Image from 'react-bootstrap/Image'
+import Card from 'react-bootstrap/Card'
+import CardColumns from 'react-bootstrap/CardColumns'
 //import Button from 'react-bootstrap/Button'
 import './home.css';
 
 export default class Home extends Component {
     render() {
         return (
-            <Container fluid>
+            <Container>
                 <Row>
-                    <h2 className='title'>Time for Transparency</h2>
+                    <Col sm={8}>
+                        <Card className='blogs'>
+                            <Card.Title>Check out my latest blog!</Card.Title>
+                        </Card>
+                    </Col>
+                    <Col sm={4}>
+                        <Card className='about'>
+                            <Card.Title className='blog-title'>About Me</Card.Title>
+                            <Card.Img variant='top' src='assets/queen.jpg'/>
+                        </Card>
+                    </Col>
                 </Row>
 
-                <Row className='main-content'>
-                    <Col sm={12} md={8}>
-                        <h1>Latest Blog</h1>
-                        <p className='blog-text text-justify'>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-                    </Col>
-                    <Col sm={12} md={{span: 3, offset: 1}}>
-                        <Image src='assets/queen.jpg' className='img-fluid'/>
-                    </Col>
-                </Row>
+                <Card className='all-blogs'>
+                    <Card.Title>All Blogs</Card.Title>
+                </Card>
             </Container>
         );
     }
