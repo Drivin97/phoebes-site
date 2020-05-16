@@ -1,6 +1,6 @@
 .navbar {
     background-color: pink;
-    position: relative;
+    position: sticky;
     display: flex;
     flex-wrap: wrap;
     align-items: center;

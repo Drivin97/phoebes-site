@@ -7,6 +7,7 @@ import about from './components/about';
 import blogs from './components/blogs';
 import submit from './components/submit';
 import Navbar from './components/customNav';
+import Footer from './components/customFooter';
 
 class App extends Component {
   render() {
@@ -18,6 +19,7 @@ class App extends Component {
           <Route path='/about' component={about} />
           <Route path='/blogs' component={blogs} />
           <Route path='/submit' component={submit} />
+          <Footer />
         </div>
       </Router>
     );
