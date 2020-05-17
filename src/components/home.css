@@ -11,7 +11,6 @@ body {
 
 .container {
     display: grid;
-    /* margin: 10px 20px; */
     grid-gap: 10px;
     grid-template-columns: repeat(auto-fit, minmax(300px, 500px));
     grid-auto-rows: 300px;
@@ -37,6 +36,18 @@ body {
 
 .latest-blog {
     grid-column: span 2;
+}
+
+.blog-title {
+    font-family: 'Courgette', cursive;
+}
+
+.blog-body {
+    overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 5;
+   -webkit-box-orient: vertical;
 }
 
 .about-me {

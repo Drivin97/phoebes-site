@@ -8,6 +8,7 @@ import blogs from './components/blogs';
 import submit from './components/submit';
 import Navbar from './components/customNav';
 import Footer from './components/customFooter';
+import login from './components/login';
 
 class App extends Component {
   render() {
@@ -20,6 +21,7 @@ class App extends Component {
             <Route path='/about' component={about} />
             <Route path='/blogs' component={blogs} />
             <Route path='/submit' component={submit} />
+            <Route path='/login' component={login} />
           </div>
           <Footer />
         </div>

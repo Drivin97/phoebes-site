@@ -13,3 +13,7 @@
     background-color: pink;
     border: 0;
 }
+
+.btn-primary:hover {
+    background-color: #CD8ECA;
+}
