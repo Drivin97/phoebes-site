@@ -1,0 +1,28 @@
+.icons {
+    display: inline;
+    margin-left: auto;
+}
+
+.twitter {
+    margin: 0 5px;
+}
+
+.insta {
+    margin: 0 5px;
+}
+
+.contact {
+    padding: 0;
+    color: rgba(0,0,0,.5);
+}
+
+.nav-link {
+    display: initial;
+    padding: 0;
+    color: black;
+    cursor: pointer;
+}
+
+.nav-link:hover {
+    color: black;
+}

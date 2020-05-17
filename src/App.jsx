@@ -15,10 +15,12 @@ class App extends Component {
       <Router>
         <div>
           <Navbar />
-          <Route exact path='/' component={home} />
-          <Route path='/about' component={about} />
-          <Route path='/blogs' component={blogs} />
-          <Route path='/submit' component={submit} />
+          <div className='content'>
+            <Route exact path='/' component={home} />
+            <Route path='/about' component={about} />
+            <Route path='/blogs' component={blogs} />
+            <Route path='/submit' component={submit} />
+          </div>
           <Footer />
         </div>
       </Router>
